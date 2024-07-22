@@ -1,5 +1,7 @@
 function indexOfIgnoreCase(s1, s2) {
   // write your code here
+	if(s1.length==0 || s2.length==0 || s2.length>s1.length)
+		return -1
 	len2=s2.length
 	res=-1
 	for(i=0;i<=s1.length-len2;i++){
