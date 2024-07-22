@@ -3,7 +3,7 @@ function indexOfIgnoreCase(s1, s2) {
 	len2=s2.length
 	res=-1
 	for(i=0;i<=s1.length-len2;i++){
-		if(s1.substr(i,i+len2).toLowerCase()==s2.toLowerCase()){
+		if(s1.substring(i,i+len2).toLowerCase()==s2.toLowerCase()){
 			res=i 
 			break
 		}
